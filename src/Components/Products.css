@@ -24,7 +24,19 @@ height: 400px;
 p{
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
     font-size: 30px;
     font-weight: 500;
+}
+
+h2{
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+}
+h6{
+    font-size: 20px;
+    color: white;
+    margin: 10px;
 }
