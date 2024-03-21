@@ -1,13 +1,29 @@
 body{
-background-color: antiquewhite;
+    background-color: antiquewhite;
 }
+
 .product-wrap {
     width: 300px;
     height: 400px;
     border: 1px solid red;
+    background-color:brown ;
+}
+
+.productDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .ContentData {
-display: flex;
+width: 300px;
+height: 400px;
+}
 
+p{
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
 }

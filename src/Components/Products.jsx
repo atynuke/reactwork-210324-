@@ -3,25 +3,41 @@ import "./Products.css"
 
 const Product =(props)=> {
 
-  const { productName, productImage,productPrice }= props
+  const { productName, productImage, productPrice }= props
 
   return (
     <>
-
+     
      <div className="product-wrap">
-      <p>Make up kits</p>
         <img src={productImage} alt="Product image" />
-        <p>{productName}</p>
+        <h2>{productName}</h2>
         <h6>#{productPrice}</h6>
      </div>
-
-    
-   
     </>
 
   )
 }
 export default Product
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

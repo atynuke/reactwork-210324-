@@ -6,33 +6,34 @@ function App(){
 
     const ContentData = [
       { productImage:`./src/assets/boxblack.jpg`,
-        productName: `Mboxblack`, 
+        productName: `boxblack`, 
         productPrice:`#30,000`},
 
-        {productImage:`./src/assets/boxblack.jpg`,
-        productName: `Mboxblack`, 
+        {productImage:`./src/assets/poreless.jpg`,
+        productName: `poreless`, 
         productPrice:`#30,000`},
 
-        {productImage:`./src/assets/boxblack.jpg`,
-        productName: `Mboxblack`, 
+        {productImage:`./src/assets/lipgloss.jpg`,
+        productName: `lipgloss`, 
         productPrice:`#30,000`},
 
-        { productImage:`./src/assets/boxblack.jpg`,
-        productName: `Mboxblack`, 
+        { productImage:`./src/assets/wallbox.jpg`,
+        productName: `wallbox`, 
         productPrice:`#30,000`},
     ]
 
     return (
       <>
+
+      <p>MAKEUP KITS</p>
         <div className="productDiv">
-        
         {
           ContentData.map(
             (Element, index)=>{
             return (
           <Product
-            productName={Element.productName} 
             productImage={Element.productImage}
+            productName={Element.productName} 
             productPrice={Element.productPrice}
             /> 
             )
