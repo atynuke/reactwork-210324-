@@ -32,25 +32,40 @@ function App() {
   )}
 )
 }
-  return (
-    <>
-     
-{/*      
-      <h1> Product Page </h1>
 
-      <div style={{display: "flex", gap:"20px"}}>
-        <Product productImage="./src/assets/itel.jpg" productName="it" productPrice="89000" />
-        <Product productImage="./src/assets/itel.jpg" productName="nexus" productPrice="98000" />
-        <Product productImage="./src/assets/itel.jpg" productName="hiker" productPrice="128000" />
-        <Product productImage="./src/assets/itel.jpg" productName="Hiker" productPrice="135000" />
-      </div>  */}
+<div style={{display: "flex", gap:"20px"}}>
+<ContentData productImage="./src/assets/itel.jpg" productName="it" productPrice="89000" />
+
+
+</div>
+
+
+
+}
+
+export default App;
+
+
+
+
+//   // return (
+//     <>
+     
+// {/*      
+//       <h1> Product Page </h1>
+
+//       <div style={{display: "flex", gap:"20px"}}>
+//         <Product productImage="./src/assets/itel.jpg" productName="it" productPrice="89000" />
+//         <Product productImage="./src/assets/itel.jpg" productName="nexus" productPrice="98000" />
+//         <Product productImage="./src/assets/itel.jpg" productName="hiker" productPrice="128000" />
+//         <Product productImage="./src/assets/itel.jpg" productName="Hiker" productPrice="135000" />
+//       </div>  */}
     
    
   
-    </>
-  );
-}
-export default App;
+//     {/* </> */}
+//   );
+// }
 
 
 

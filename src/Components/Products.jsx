@@ -14,7 +14,7 @@ const Product =(props)=> {
         <h6>#{productPrice}</h6>
      </div> */}
 
-      <div className="product-wrapkkjkjk">
+      <div className="product-wrap">
         <img src={productImage} alt="Product image" />
         <p>{productName}</p>
         <h6>#{productPrice}</h6>
