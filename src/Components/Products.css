@@ -23,6 +23,7 @@ height: 400px;
 
 p{
     display: flex;
+    align-items: center;
     text-align: center;
     font-size: 30px;
     font-weight: 500;
