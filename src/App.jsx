@@ -2,50 +2,65 @@ import {React } from "react";
 import Product from "./Components/Products.jsx";
 import "./App.css";
 
-function App() {
-
+function App(){
 
     const ContentData = [
-      { productName: `Mikano`, 
-        productImage:``,
+      { productImage:`./src/assets/boxblack.jpg`,
+        productName: `Mboxblack`, 
         productPrice:`#30,000`},
 
-        { productName: `Mikano`, 
-        productImage:``,
+        {productImage:`./src/assets/boxblack.jpg`,
+        productName: `Mboxblack`, 
         productPrice:`#30,000`},
 
-        { productName: `Mikano`, 
-        productImage:``,
+        {productImage:`./src/assets/boxblack.jpg`,
+        productName: `Mboxblack`, 
         productPrice:`#30,000`},
 
-        { productName: `Mikano`, 
-        productImage:``,
-        productPrice:`#30,000`}
-      
-     ]
+        { productImage:`./src/assets/boxblack.jpg`,
+        productName: `Mboxblack`, 
+        productPrice:`#30,000`},
+    ]
 
- { 
-  ContentData.map(
-    (Element, index)=>{
-  return(
-    <p key={index}>{Element}</p>
-  )}
-)
-}
+    return (
+      <>
+        <div className="productDiv">
+        
+        {
+          ContentData.map(
+            (Element, index)=>{
+            return (
+          <Product
+            productName={Element.productName} 
+            productImage={Element.productImage}
+            productPrice={Element.productPrice}
+            /> 
+            )
+        })
+        }
+            
+      </div>
+          
+      </>
+    )
 
-<div style={{display: "flex", gap:"20px"}}>
-<ContentData productImage="./src/assets/itel.jpg" productName="it" productPrice="89000" />
 
 
-</div>
+{
 
-
-
-}
+}}
 
 export default App;
 
-
+// const ContentData = {productImage, productName, productPrice}
+{/* <div style={{display: "flex", gap:"20px"}}>
+        
+<ContentData productImage="./src/assets/boxblack.jpg" productName="boxblack" productPrice="" />
+<ContentData productImage="./src/assets/boxblack.jpg" productName="boxblack" productPrice="" />
+<ContentData productImage="./src/assets/lipgloss.jpg" productName="lipgloss" productPrice="899000" />
+<ContentData productImage="./src/assets/poreless.jpg" productName="poreless" productPrice="89000" />
+<ContentData productImage="./src/assets/wallbox.jpg" productName="wallbox" productPrice="89000" />
+</div> */}
 
 
 //   // return (

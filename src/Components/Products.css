@@ -1,13 +1,13 @@
-/* body{
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
+body{
+background-color: antiquewhite;
+}
 .product-wrap {
     width: 300px;
     height: 400px;
     border: 1px solid red;
+}
+
+.ContentData {
+display: flex;
+
 }
