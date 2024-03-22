@@ -63,7 +63,7 @@ function App() {
           );
         })}
       </div> 
-      :"Please log In"}
+      : "Please log In" }
     </>
   );
 
@@ -71,6 +71,35 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // const ContentData = {productImage, productName, productPrice}
 {

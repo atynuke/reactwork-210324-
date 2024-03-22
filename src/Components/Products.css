@@ -6,7 +6,7 @@ body{
     width: 300px;
     height: 415px;
     border: 1px solid red;
-    background-color:brown ;
+    background-color:brown;
 }
 
 .productDiv {
@@ -48,18 +48,27 @@ button {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: cornflowerblue;
+    margin-left: 400px;
+    background-color: black;
     border-radius: 10px;
     border-style: none;
     font-size: 15px;
     color:white;
-    /* width: 150px;
-    height: 25px;
+}
+
+
+#buy {
+    width: 100px;
+    height: 30px;
+    background-color: blanchedalmond;
     text-align: center;
     border-style: none;
     box-sizing: border-box;
+    font-weight: 900;
     font-size: 15px;
     color: brown;
     font-weight: 300;
-    margin: 10px; */
+    margin: 10px;
 }
+
+
