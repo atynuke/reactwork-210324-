@@ -11,7 +11,9 @@ const Product =(props)=> {
      <div className="product-wrap">
         <img src={productImage} alt="Product image" />
         <h2>{productName}</h2>
-        <h6>#{productPrice}</h6>
+        <h6>{productPrice}</h6>
+        <button onClick={()=>{}} type="button">Buy Now</button>
+
      </div>
     </>
 
