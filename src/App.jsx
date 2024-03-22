@@ -63,12 +63,11 @@ function App() {
           );
         })}
       </div> 
-      :"PLEASE LOG  IN"}
+      :"Please log In"}
     </>
   );
 
-  {
-  }
+  
 }
 
 export default App;
